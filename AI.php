@@ -18,7 +18,7 @@ if ($s == null && $_GET['word'] == true) {
 			array_push($s['messages'], $question);
 			$s = json_encode($s, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
 			$data = $s;
-			$cookie = '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';
+			$cookie = $_GET['cook'];
 			$ch = curl_init('https://api.openai.com/v1/chat/completions');
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
