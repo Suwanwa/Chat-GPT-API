@@ -1,2 +1,19 @@
 # Chat-GPT-API
-基于Chat GPT3.5的API，支持连续对话和创建新会话
+有哪些功能？
+* 基于Chat GPT 3.5
+* 支持上下文
+* 支持人设创建
+* 支持创建会话
+* 单PHP
+
+`需要自行申请Cookie并以GET方式提交`
+
+在线体验:https://chat-gpt-swart.vercel.app
+___
+请求参数
+```
+参数  类型  参数值   描述
+
+word  必填  string  此值是你提交给AI的问题
+
+type  可选   new    当此值为new时创建新会话
