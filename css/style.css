@@ -1,0 +1,98 @@
+/*
+ * 作者:GS-Meida
+ * 邮箱:adm@igmsy.com
+ * 主页:https://www.igmsy.com
+ */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 20%;
+    position: relative;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container>div {
+    float: left;
+}
+
+.container .logo {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 120px;
+}
+
+.container .input {
+    position: relative;
+    width: 609px;
+    height: 44px;
+    border-top: #4e6ef2 solid 2px;
+    border-right: none;
+    border-bottom: #4e6ef2 solid 2px;
+    border-left: #4e6ef2 solid 2px;
+    border-radius: 5px 0 0 5px;
+}
+
+.container .input>input {
+    outline: none;
+    border: none;
+    padding: 0 0 0 10px;
+    margin: 0;
+    height: 44px;
+    width: 97%;
+    color: #333;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+}
+
+.container .input>input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.container .search {
+    width: 89px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #4e6ef2;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #4e6ef2;
+}
+
+.container .search:hover {
+    background-color: #4662d9;
+}
+
+.msg-top {
+    width: 100%;
+    margin-top: 0.5rem !important;
+}
+
+.msg-body {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    position: relative;
+    padding: .69rem .69rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
