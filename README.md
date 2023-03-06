@@ -1,10 +1,12 @@
 # Chat-GPT-API
 有哪些功能？
-* 基于Chat GPT 3.5
+* 基于GPT 3.5 Turbo
 * 支持上下文
 * 支持人设创建
 * 支持创建会话
-* 单PHP
+* 支持Cookie提交
+* 单PHP API实现
+* HTML页面
 
 `需要自行申请Cookie并以GET方式提交`
 
