@@ -18,7 +18,6 @@
 
 😊此类问题将会在后续更新解决，记得给我点Star！
 
-| <a href="https://github.com/miloce"><img align="center" src="https://github-readme-stats.vercel.app/api?username=miloce&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/miloce"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miloce&layout=compact&theme=buefy&hide_border=true" /></a> |
 ___
 请求参数
 ```
@@ -27,5 +26,3 @@ ___
 word  必填  string  此值是你提交给AI的问题
 
 type  可选   new    当此值为new时创建新会话
-
-
