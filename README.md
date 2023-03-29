@@ -1,28 +1,33 @@
 # Chat-GPT-API
 有哪些功能？
-* 基于GPT 3.5 Turbo
+* 允许查询余额
+* 单PHP API实现
+* 免代理
+* 支持POST和GET两种方法
+* 支持JSON输出
+* 支持GPT 3.5 Turbo，GPT 4，GPT4 32K
 * 支持上下文
-* 支持人设创建
+* 支持人设提交
 * 支持创建会话
 * 支持Cookie提交
-* 单PHP API实现
-* HTML页面
 
-`PHP需要自行申请Cookie并以GET方式提交`
+在线体验:https://chatgpt.suwanya.cn
 
-在线体验:https://ai.suwanya.cn
-
-😐在线体验暂时不支持修改System角色信息以及刷新会话
-
-😐在线体验网页里，刷新会话请自行访问https://ai.suwanya.cn/api/AI.php?type=new
-
-😊此类问题将会在后续更新解决，记得给我点Star！
+😊记得给我点Star！
 
 ___
 请求参数
 ```
-参数  类型  参数值   描述
+参数        类型   参数值        描述
 
-word  必填  string  此值是你提交给AI的问题
+word        必填   text         此值是你提交给AI的问题
 
-type  可选   new    当此值为new时创建新会话
+cook        必填   text         此值是你的Key
+
+temperature 必填   string       此值为思维发散程度，默认0.6
+
+key         必填   string       此值为用户标识
+
+system      可选   text         此值是全局人设
+
+type        可选   money|json   此值为json时返回json，为money时返回余额
