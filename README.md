@@ -13,7 +13,7 @@
 
 在线体验:https://chat.suwanya.cn
 
-API:http://yyyy.wiki:9920/api
+API:http://suwanya.f3322.net:9920/api
 
 😊记得给我点Star！
 
